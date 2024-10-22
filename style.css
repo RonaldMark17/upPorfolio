@@ -517,6 +517,14 @@ header.sticky {
     margin-left: -40px;
     transition: transform 0.6s ease, box-shadow 0.4s ease; /* Add transition */
   }
+
+  body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
 }
 
 @media (max-width: 950px) {
